@@ -75,3 +75,23 @@ th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+header ul li {
+  padding: 10px 20px;
+}
+
+div {
+  text-align: center;
+}
