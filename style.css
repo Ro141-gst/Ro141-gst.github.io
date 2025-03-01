@@ -2,6 +2,12 @@
         全体
 -------------------- */
 
+　head {
+<!-- SlickのCSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="style.css"> <!-- 自分のCSS -->
+}
+
 :root {
   --theme-color: #00a0a0;
 }
@@ -16,9 +22,6 @@ html, body {
 }
 
 body {
-	<!-- SlickのCSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" href="style.css"> <!-- 自分のCSS -->
   margin: 0;
   padding: 30px;
   color: #333;
